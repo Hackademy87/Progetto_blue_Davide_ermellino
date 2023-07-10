@@ -26,3 +26,41 @@ font-family: 'Roboto', sans-serif;
 .onda-grigia{
     bottom: 15px;
 }
+/* SEZIONE CARD  */
+.card{
+    height: 21rem;
+    width: 16rem;
+    border-radius: 0;
+}
+.card-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/1.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/2.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}.card-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/3.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}.card-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/4.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titolo-card{
+    border-bottom: 2px solid rgb(253, 253, 46);
+    font-size: 1.9em;
+}
+.testo-card{
+    font-size: 13px;
+}
+.img-card{
+    transform: scale(1.3);
+}
