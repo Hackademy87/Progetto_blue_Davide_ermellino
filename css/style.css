@@ -31,6 +31,7 @@ font-family: 'Roboto', sans-serif;
     height: 21rem;
     width: 16rem;
     border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.493);
 }
 .card-1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/1.png");
@@ -63,4 +64,29 @@ font-family: 'Roboto', sans-serif;
 }
 .img-card{
     transform: scale(1.3);
+}
+/* SEZIONE ICONE TESTO ITOTLO */
+.sezione-icone-testo-titolo{
+    margin-top: 150px;
+}
+.testo-titolo{
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.titolo-di-testo-titolo , .testo-di-testo-titolo{
+    font-weight: 500;
+}
+.loghi{
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+}
+.mam{
+    width: 58%;
+}
+.img-logo{
+    font-size: 25px;
 }
