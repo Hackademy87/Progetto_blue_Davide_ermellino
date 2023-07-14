@@ -68,6 +68,7 @@ font-family: 'Roboto', sans-serif;
 /* SEZIONE ICONE TESTO ITOTLO */
 .sezione-icone-testo-titolo{
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 .testo-titolo{
     padding: 15px;
@@ -84,9 +85,33 @@ font-family: 'Roboto', sans-serif;
     border-radius: 20px;
 
 }
-.mam{
+.cont-icon{
     width: 58%;
 }
 .img-logo{
     font-size: 25px;
+}
+/* SEZIONE BLOCCHI  */
+.blocchi{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+}
+.primo-blocco-blocchi{
+    margin-bottom: 150px;
+}
+.primo-blocco{
+    height: 150px;
+}
+.secondo-blocco{
+    height: 125px;
+}
+.logo-blocchi{
+    font-size: 20px;
+}
+.numero-blocco{
+    font-weight: 700;
+}
+.ultimo-blocco-secondo{
+    height: 200px;
 }
