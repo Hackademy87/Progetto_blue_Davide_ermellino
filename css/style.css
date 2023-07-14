@@ -100,6 +100,9 @@ font-family: 'Roboto', sans-serif;
 .primo-blocco-blocchi{
     margin-bottom: 150px;
 }
+.secondo-blocco-blocchi{
+    margin-bottom: 150px;
+}
 .primo-blocco{
     height: 150px;
 }
@@ -115,3 +118,55 @@ font-family: 'Roboto', sans-serif;
 .ultimo-blocco-secondo{
     height: 200px;
 }
+/* SEZIONE IMMAGINE CERCHIO E TESTO  */
+.contorno-cerchio{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid #1566C0;
+}
+.immagine-cerchio{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+}
+.blocco-sez-t-i{
+    height: 200px;
+}
+/* SEZIONE TIMELINE  */
+.container-timeline{
+    margin-top: 100px;
+}
+.bordo-fine{
+    border-right: 3px solid #1566C0;
+}
+.titolo-paragrafo-timeline-sx::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid #1566C0;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+left: -26px;
+
+  }
+  .titolo-paragrafo-timeline-dx::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid #1566C0;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -26px;
+
+  }
+  .bottone-iscriviti{
+    background-color: #1566C0;
+    color: white;
+  }
