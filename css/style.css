@@ -85,9 +85,7 @@ font-family: 'Roboto', sans-serif;
     border-radius: 20px;
 
 }
-.cont-icon{
-    width: 58%;
-}
+
 .img-logo{
     font-size: 25px;
 }
@@ -130,9 +128,7 @@ font-family: 'Roboto', sans-serif;
     width: 230px;
     border-radius: 50%;
 }
-.blocco-sez-t-i{
-    height: 200px;
-}
+
 /* SEZIONE TIMELINE  */
 .container-timeline{
     margin-top: 100px;
@@ -174,4 +170,37 @@ left: -26px;
   .footer{
     height: 500px;
     background-image: linear-gradient(white, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/footer.jpg);
+  }
+  @media screen and (max-width: 767px){
+    .titolo-card-descrizione{
+        width: 75% !important;
+    }
+    .paragrafo-card{
+        width: 100% !important;
+    }
+    .secondi-blocchi-seconda-div{
+        justify-content: center !important;
+    }
+    .ultimo-blocco-secondo{
+        height: 300px;
+    }
+    .primo-blocco{
+        height: 175px;
+    }
+    .social{
+        justify-content: start !important;
+    }
+  }
+  @media screen and (max-width: 991px){
+    .titolo-card-descrizione{
+        width: 75% !important;
+    }
+  }
+  @media screen and (min-width: 992px){
+    .titolo-card-descrizione{
+        width: 20% !important;
+    }
+    .blocco-sez-t-i{
+        height: 200px;
+    }
   }
